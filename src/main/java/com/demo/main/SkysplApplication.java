@@ -10,5 +10,4 @@ public class SkysplApplication {
 		SpringApplication.run(SkysplApplication.class, args);
 		System.out.println("Started....");
 	}
-
 }
