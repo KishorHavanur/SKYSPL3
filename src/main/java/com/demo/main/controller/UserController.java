@@ -117,4 +117,9 @@ public class UserController {
         model.put("user", user);
         return "user/Home";
     }
+    
+    @GetMapping("/logout")
+    public String logout(HttpSession session) {
+    	return "LandingPage";
+    }
 }

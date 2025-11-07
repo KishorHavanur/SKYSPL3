@@ -17,7 +17,7 @@ if (u == null) {
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">User Portal</a>
-    <a href="logout" class="btn btn-outline-light">Logout</a>
+    <a href="<%= request.getContextPath() %>/user/logout" class="btn btn-outline-light">Logout</a>
   </div>
 </nav>
 
